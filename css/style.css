@@ -1,9 +1,40 @@
+@font-face {
+  font-family: 'Memphis';
+  src: url('../fonts/memphis.ttf')  format('truetype');
+}
+
 html {
     height: 100%;
 }
 body {
+    font-family: 'Memphis', sans-serif;
+    position: relative;
     height: 100%;
     background-image: url("../images/background.jpg");
     background-size: cover;
     background-color: #cccccc;
+}
+
+.floating-container {
+  position: absolute;
+  right: 4%;
+  bottom: 15%;
+  padding: 15px 15px;
+  
+  background:rgba(0,0,0,0.3);
+  text-align: center;
+  
+  color: #F6F8F3;
+  border: 8px solid;  
+}
+
+.title {
+  letter-spacing: 2.5px;
+  font-size: 30px;
+}
+
+.subtitle {
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin-top: 16px;
 }
