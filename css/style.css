@@ -1,13 +1,26 @@
 @font-face {
-  font-family: 'Memphis';
-  src: url('../fonts/memphis.ttf')  format('truetype');
+  font-family: 'Josefin';
+  src: url('../fonts/JosefinSans-Thin.ttf')  format('truetype');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Josefin';
+  src: url('../fonts/JosefinSans-Regular.ttf')  format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Josefin';
+  src: url('../fonts/JosefinSans-SemiBold.ttf')  format('truetype');
+  font-weight: 600;
 }
 
 html {
     height: 100%;
 }
 body {
-    font-family: 'Memphis', sans-serif;
+    font-family: 'Josefin', sans-serif; 
     position: relative;
     height: 100%;
     background-image: url("../images/background.jpg");
@@ -21,7 +34,7 @@ body {
   bottom: 15%;
   padding: 15px 15px;
   
-  background:rgba(0,0,0,0.3);
+  background:rgba(0,0,0,0.57);
   text-align: center;
   
   color: #F6F8F3;
@@ -29,12 +42,21 @@ body {
 }
 
 .title {
+  font-weight: 600;
   letter-spacing: 2.5px;
   font-size: 30px;
 }
 
 .subtitle {
-  letter-spacing: 1px;
+  font-weight: 500;
+  letter-spacing: 2px;
   font-size: 20px;
   margin-top: 16px;
+}
+
+.contact {
+  font-weight: 100;
+  font-size: 20px;
+  margin-top: 16px;
+  letter-spacing: 1px;
 }
